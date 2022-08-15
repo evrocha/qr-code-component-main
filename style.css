@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');   
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light_gray: hsl(212, 45%, 89%);
+    --grayish-blue:hsl(220, 15%, 55%);
+    --dark-blue:hsl(218, 44%, 22%);
+}
+p{
+    font-size: 15px;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--light_gray);
+}
+.space_QRCode{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    margin: auto;
+    width: 350px;
+    height: 530px;
+    background-color: var(--white);
+   
+    border-radius: 20px;
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 320px, 90px, 90px);
+    row-gap: 10px;
+    
+}
+
+.space_QRCode img{
+    background-image: "C:\Users\emanu\Downloads\qr-code-component-main\qr-code-component-main\images\favicon-32x32.png";
+    
+    margin: auto;
+    border-radius: 20px;
+    width: 300px;
+}
+
+h2{
+    text-align: center;
+    margin: auto;
+    width:300px;
+    font-weight: 700;
+}
+p{
+   
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    font-weight: 400;
+    color: var(--grayish-blue);
+    margin-bottom: 50px;
+}
+.attribution{
+    /* bottom:0 */
+    text-align: center;
+}
+footer{
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    padding-top: 20px;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
