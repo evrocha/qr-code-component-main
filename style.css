@@ -19,7 +19,6 @@ body{
 }
 .space_QRCode{
     position: absolute;
-    display: block;
     top: 0;
     right: 0;
     left: 0;
@@ -36,7 +35,6 @@ body{
     grid-template-columns: auto;
     grid-template-rows: repeat(3, 320px, 90px, 90px);
     row-gap: 10px;
-    
 }
 
 .space_QRCode img{
@@ -54,7 +52,6 @@ h2{
     font-weight: 700;
 }
 p{
-   
     margin: auto;
     width: 300px;
     text-align: center;
